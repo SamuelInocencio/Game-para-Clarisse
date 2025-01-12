@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+
+    <title>Jokenpo para a Clarisse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            JokenPô
+        </h1>
+        <div class="clarisse">
+
+        </div>
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')">&#x1f590;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270c;</button>
+        </div>
+        <p class="result"></p>
+
+        <p class="my-score">Pontuação da Clarisse: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Inteligência Artificial: <span id="machine-score">0</span></p>
+        <button class="reiniciar" type="button" onclick="reset()">INICIAR</button>
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
